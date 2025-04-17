@@ -26,7 +26,7 @@
 * ctrl-shift-N = next file in list
 * ctrl-shift-P = previous file in list
 
-##Install Config
+## Install Config
 Locate your Neovim configurations
 
 1. cd into the config folder (Find it yourself)
