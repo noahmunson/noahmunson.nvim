@@ -9,7 +9,9 @@ end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	spec = "plugins.lazy",
-	change_detection = { notify = true },
-	"tpope/vim-sleuth",
+	spec = {
+		{ import = "plugins.lazy" },
+		{ "tpope/vim-sleuth" },
+	},
+	change_detection = { notify = true }
 })

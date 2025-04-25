@@ -23,3 +23,9 @@ map("n", "<C-h>", "<C-w>h", { desc = "switch window left" })
 map("n", "<C-j>", "<C-w>j", { desc = "switch window down" })
 map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 map("n", "<C-l>", "<C-w>l", { desc = "switch window right" })
+
+map("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window"})
+
+map({ "n", "t" }, "<C-i>", function()
+    require("nvterm.terminal").toggle "float"
+end, { desc = "Toggle floating terminal "})
