@@ -29,10 +29,8 @@
 ## Install Config
 Locate your Neovim configurations
 
-1. cd into the config folder (Find it yourself)
+1. cd into the config folder
 
 2. git clone *this repo* "${XDG_CONFIG_HOME:-$HOME/.config}" /nvim
-
-3. if that doesn't work, just install linux bro, you are on your own for windows
 
 
